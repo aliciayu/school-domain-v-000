@@ -13,10 +13,6 @@ class School
   end
 
   def grade(grade)
-    sorted = {}
-    roster.each do |grade, student|
-      strudent.sort
-    end
-    sorted
+    roster(grade)
   end
 end
