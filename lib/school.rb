@@ -14,10 +14,9 @@ class School
 
   def grade(grade)
     sorted = {}
-    roster.each do |student|
+    roster.each do |grade, student|
       strudent.sort
     end
     sorted
   end
-
 end
