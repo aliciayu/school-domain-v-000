@@ -10,4 +10,12 @@ class School
   def students(name, grade)
     roster[grade] ||= []
     roster[grade] << name
+  end
+
+  def grade(grade)
+    roster.each do |student|
+      strudent.sort!
+    end
+  end
+  
 end
