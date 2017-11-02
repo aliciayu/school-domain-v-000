@@ -15,4 +15,12 @@ class School
   def grade(grade)
     roster[grade]
   end
+
+  def sort
+    sorted = {}
+    roster.each do |student|
+      student.sort
+    end
+    sorted
+  end
 end
