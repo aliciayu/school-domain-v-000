@@ -1,3 +1,4 @@
+require pry
 # code here!
 class School
   attr_accessor :roster, :name
@@ -18,6 +19,7 @@ class School
 
   def sort
     roster.each do |_grade, name|
+      binding.pry
       name.sort!
     end
   end
